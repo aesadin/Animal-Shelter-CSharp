@@ -14,7 +14,7 @@ namespace AnimalShelter
     {
       var builder = new ConfigurationBuilder()
           .SetBasePath(env.ContentRootPath)
-          .AddJsonFile("appsettings.json");;
+          .AddJsonFile("appsettings.json");
       Configuration = builder.Build();
     }
 
